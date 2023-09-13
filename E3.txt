@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int n;
+  cout << "Ingrese un número para saber si es par impar ";
+  cin >> n;
+  if (n % 2 == 0) {
+    cout << n << " es par";
+  } else{
+    cout << n << " no es par";
+  }
+  return 0;
+}

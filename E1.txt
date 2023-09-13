@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() {
+  float cm,pulgadas;
+  cout << "Ingrese una medida en centímetros para pasarlo a pulgadas" << endl;
+  cout << "CM = ";
+  cin >> cm;
+  pulgadas = cm / 2.54;
+  cout << "Pulgadas = " << pulgadas;
+  return 0;
+}

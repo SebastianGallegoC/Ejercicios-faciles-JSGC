@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int n,i,t = 0,m,a,r;
+int factorial(int n) {
+     unsigned long long factorial = 1;
+    for (i=1 ; i <= n ; i++){
+     factorial *= i;
+    } 
+  return factorial;
+}
+int main() {
+    int n;
+    cout << "Ingrese un número: ";
+    cin >> a;
+    r = factorial(a);
+    cout << r;
+    return 0;
+}

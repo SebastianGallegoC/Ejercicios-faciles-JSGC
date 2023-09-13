@@ -1,0 +1,15 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int n,p,r;
+int potencia(int n, int p) {
+   return pow(n,p);
+}
+int main() {
+  cout << "Ingrese un número " << endl;
+  cin >> n;
+  cout << "Ingrese su potencia " << endl;
+  cin >> p;
+  r = potencia(n,p);
+  cout << r;
+}
